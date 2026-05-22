@@ -72,7 +72,7 @@ export default function Contact() {
               
               {/* WhatsApp card */}
               <a 
-                href="https://api.whatsapp.com/send?phone=18005559876&text=Hello%20onboreding%20Support!"
+                href="https://api.whatsapp.com/send?phone=18005559876&text=Hello%20onbording%20Support!"
                 target="_blank"
                 rel="noreferrer"
                 className="block bg-emerald-50 border border-emerald-100 p-6 rounded-3xl hover:shadow-md transition-shadow text-left"
@@ -111,7 +111,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <span className="block text-[10px] uppercase font-bold text-slate-400">Email Support</span>
-                      <a href="mailto:support@onboreding.com" className="text-blue-950 hover:text-indigo-600 font-bold font-poppins">support@onboreding.com</a>
+                      <a href="mailto:support@onbording.com" className="text-blue-950 hover:text-indigo-600 font-bold font-poppins">support@onbording.com</a>
                     </div>
                   </div>
 
@@ -140,7 +140,7 @@ export default function Contact() {
               
               <div className="relative z-10 text-left">
                 <span className="text-[10px] uppercase tracking-widest text-indigo-300 font-black">Interactive Workspace Map</span>
-                <h4 className="font-poppins font-black text-sm text-white mt-1">onboreding HQ Campus</h4>
+                <h4 className="font-poppins font-black text-sm text-white mt-1">onbording HQ Campus</h4>
                 <p className="text-[11px] text-slate-300 mt-0.5">San Francisco, California</p>
               </div>
 

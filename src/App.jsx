@@ -50,7 +50,7 @@ export default function App() {
     if (opts.comp) setSelectedComp(opts.comp);
     if (opts.name) {
       setStudentName(opts.name);
-      localStorage.setItem('onboreding_student_name', opts.name);
+      localStorage.setItem('onbording_student_name', opts.name);
     }
     window.location.hash = `#/${pageId}`;
     setCurrentPage(pageId);

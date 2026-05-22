@@ -183,7 +183,7 @@ export default function HandwritingExam({ navigateTo, grade: propGrade, competit
   const handleSubmit = () => {
     const imageData = submissionMode === 'photo' ? capturedImage : getCanvasImage();
     // Save submission to localStorage
-    const submissions = JSON.parse(localStorage.getItem('onboreding_submissions') || '[]');
+    const submissions = JSON.parse(localStorage.getItem('onbording_submissions') || '[]');
     submissions.unshift({
       id: Date.now(),
       grade,
@@ -193,7 +193,7 @@ export default function HandwritingExam({ navigateTo, grade: propGrade, competit
       date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
       status: 'Under Review',
     });
-    localStorage.setItem('onboreding_submissions', JSON.stringify(submissions.slice(0, 20)));
+    localStorage.setItem('onbording_submissions', JSON.stringify(submissions.slice(0, 20)));
     setPhase('submitted');
   };
 

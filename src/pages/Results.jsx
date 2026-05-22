@@ -23,8 +23,8 @@ export default function Results({ navigateTo }) {
   const [activeTab, setActiveTab] = useState('all'); // all | my | official
 
   const loadResults = useCallback(() => {
-    const local = JSON.parse(localStorage.getItem('onboreding_results') || '[]');
-    const studentName = localStorage.getItem('onboreding_student_name') || '';
+    const local = JSON.parse(localStorage.getItem('onbording_results') || '[]');
+    const studentName = localStorage.getItem('onbording_student_name') || '';
 
     // Map local results to display format
     const mapped = local.map((r, i) => ({
@@ -236,7 +236,7 @@ export default function Results({ navigateTo }) {
                   </div>
 
                   <div className="space-y-1">
-                    <h2 className="font-poppins text-2xl font-black text-blue-950 tracking-wider">onboreding Certificate</h2>
+                    <h2 className="font-poppins text-2xl font-black text-blue-950 tracking-wider">onbording Certificate</h2>
                     <p className="text-[10px] text-indigo-600 font-black tracking-widest uppercase">Of Academic Accomplishment</p>
                   </div>
 
@@ -267,7 +267,7 @@ export default function Results({ navigateTo }) {
                       <span>Chief Academic Judge</span>
                     </div>
                     <div className="space-y-1">
-                      <span className="block text-slate-700 font-bold font-poppins">onboreding Org.</span>
+                      <span className="block text-slate-700 font-bold font-poppins">onbording Org.</span>
                       <span>Verify: OB-{selectedCertificate.name?.split(' ')[0]}-{Date.now().toString().slice(-4)}</span>
                     </div>
                   </div>

@@ -23,7 +23,7 @@ Encourage your children to break words down into phonemes (sound segments). Unde
 Play spelling bees during road trips, kitchen chores, or breakfast sessions. Make it light-hearted! Set up a dynamic score card on the refrigerator and reward spelling triumphs with reading tokens.
 
 ### 3. Read Together & Spot Errors
-During night-time stories, point out unusual spellings (like "knight" or "scent"). Ask children to write down words in print or cursive. onboreding provides custom vocabulary word banks that make spelling prep extremely interactive! Try them today.
+During night-time stories, point out unusual spellings (like "knight" or "scent"). Ask children to write down words in print or cursive. onbording provides custom vocabulary word banks that make spelling prep extremely interactive! Try them today.
       `
     },
     {
@@ -82,7 +82,7 @@ In standard school exams, double-blind researchers note that clean, symmetrical 
         
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-          <span className="text-xs font-black tracking-widest text-indigo-600 uppercase font-poppins font-bold">onboreding Blogs</span>
+          <span className="text-xs font-black tracking-widest text-indigo-600 uppercase font-poppins font-bold">onbording Blogs</span>
           <h1 className="font-poppins text-3xl sm:text-4xl lg:text-5xl font-black text-blue-950">
             Educational Blogs & Guides
           </h1>
@@ -103,7 +103,7 @@ In standard school exams, double-blind researchers note that clean, symmetrical 
                 <div className={`h-48 bg-gradient-to-tr ${post.bgGradient} flex items-center justify-center relative overflow-hidden`}>
                   <post.icon className={`w-16 h-16 ${post.iconColor} filter drop-shadow-md`} />
                   <div className="absolute top-4 left-4 bg-white/40 backdrop-blur-md px-3 py-1 rounded-full text-[9px] text-slate-800 font-bold uppercase tracking-wider">
-                    onboreding Editorial
+                    onbording Editorial
                   </div>
                 </div>
 

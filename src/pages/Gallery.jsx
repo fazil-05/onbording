@@ -81,7 +81,7 @@ export default function Gallery() {
   ];
 
   const [items, setItems] = useState(() => {
-    const saved = localStorage.getItem('onboreding_gallery');
+    const saved = localStorage.getItem('onbording_gallery');
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -121,7 +121,7 @@ export default function Gallery() {
       return item;
     });
     setItems(updated);
-    localStorage.setItem('onboreding_gallery', JSON.stringify(updated.map(i => {
+    localStorage.setItem('onbording_gallery', JSON.stringify(updated.map(i => {
       // Don't save icon functions directly in localstorage
       const { icon, ...rest } = i;
       return rest;
@@ -132,7 +132,7 @@ export default function Gallery() {
   const handleDelete = (id) => {
     const updated = items.filter(item => item.id !== id);
     setItems(updated);
-    localStorage.setItem('onboreding_gallery', JSON.stringify(updated.map(i => {
+    localStorage.setItem('onbording_gallery', JSON.stringify(updated.map(i => {
       const { icon, ...rest } = i;
       return rest;
     })));
@@ -185,7 +185,7 @@ export default function Gallery() {
 
     const updated = [createdItem, ...items];
     setItems(updated);
-    localStorage.setItem('onboreding_gallery', JSON.stringify(updated.map(i => {
+    localStorage.setItem('onbording_gallery', JSON.stringify(updated.map(i => {
       const { icon, ...rest } = i;
       return rest;
     })));

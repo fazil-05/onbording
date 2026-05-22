@@ -163,7 +163,7 @@ export default function Competitions({ navigateTo, setSelectedComp }) {
   const [alert, setAlert] = useState(null);
 
   const isRegistered = (compTitle) => {
-    const regs = JSON.parse(localStorage.getItem('onboreding_registrations') || '[]');
+    const regs = JSON.parse(localStorage.getItem('onbording_registrations') || '[]');
     return regs.some(r => r.competition === compTitle);
   };
 
@@ -182,7 +182,7 @@ export default function Competitions({ navigateTo, setSelectedComp }) {
     }
     // Already registered — go straight to competition
     setSelectedComp(comp.title);
-    const regs = JSON.parse(localStorage.getItem('onboreding_registrations') || '[]');
+    const regs = JSON.parse(localStorage.getItem('onbording_registrations') || '[]');
     const reg = regs.find(r => r.competition === comp.title);
     navigateTo(comp.route, { grade: reg?.grade || '', comp: comp.title, name: reg?.studentName || '' });
   };

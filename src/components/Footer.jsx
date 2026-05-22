@@ -32,7 +32,7 @@ export default function Footer({ navigateTo }) {
                 <Award className="h-6 w-6 text-white" />
               </div>
               <span className="font-poppins font-black text-2xl tracking-tight text-white">
-                on<span className="text-amber-400">boreding</span>
+                on<span className="text-amber-400">bording</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
@@ -162,7 +162,7 @@ export default function Footer({ navigateTo }) {
             <Mail className="w-5 h-5 text-indigo-400" />
             <div>
               <span className="block text-[10px] uppercase font-bold text-indigo-400">Direct Email</span>
-              <a href="mailto:support@onboreding.com" className="text-white hover:text-indigo-400 font-semibold font-poppins">support@onboreding.com</a>
+              <a href="mailto:support@onbording.com" className="text-white hover:text-indigo-400 font-semibold font-poppins">support@onbording.com</a>
             </div>
           </div>
           <div className="flex items-center space-x-3 bg-slate-800/40 p-3.5 rounded-2xl border border-slate-800/80">
@@ -176,7 +176,7 @@ export default function Footer({ navigateTo }) {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 pt-8 mt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} onboreding Online Competitions. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} onbording Online Competitions. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 sm:mt-0 font-medium">
             <a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#terms" className="hover:text-white transition-colors">Terms of Service</a>

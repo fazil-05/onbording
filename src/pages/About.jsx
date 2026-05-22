@@ -41,7 +41,7 @@ export default function About() {
             Inspiring the Next Generation of Achievers
           </h1>
           <p className="max-w-2xl mx-auto text-sm sm:text-base text-slate-500 font-medium leading-relaxed">
-            onboreding is a leading global online competition workspace designed to channel student competitive spirit into constructive learning and academic skill refinement.
+            onbording is a leading global online competition workspace designed to channel student competitive spirit into constructive learning and academic skill refinement.
           </p>
         </div>
       </section>
@@ -55,7 +55,7 @@ export default function About() {
                 A Platform Built on Passion & Play
               </h2>
               <p className="text-slate-600 leading-relaxed font-medium">
-                onboreding was established in 2021 when a small team of educators noticed a lack of standardized online engagement during school recesses. Recognizing that children thrive under well-designed gamified goals, we built a secure platform dedicated exclusively to students from Kindergarten (KG) to 10th Standard.
+                onbording was established in 2021 when a small team of educators noticed a lack of standardized online engagement during school recesses. Recognizing that children thrive under well-designed gamified goals, we built a secure platform dedicated exclusively to students from Kindergarten (KG) to 10th Standard.
               </p>
               <p className="text-slate-600 leading-relaxed font-medium">
                 Our initial event started with just 100 students in a local handwriting test. Today, we have successfully managed over 50,000 registrations globally, giving children the ability to compete against national cohorts from their living rooms.
@@ -65,7 +65,7 @@ export default function About() {
             <div className="lg:col-span-6 flex justify-center">
               <div className="w-full max-w-md bg-gradient-to-tr from-indigo-900 to-blue-900 rounded-3xl p-8 text-white relative shadow-2xl overflow-hidden">
                 <div className="absolute top-0 right-0 w-24 h-24 bg-white/5 rounded-full blur-xl"></div>
-                <h3 className="font-poppins font-black text-lg mb-4 text-white">onboreding Milestones</h3>
+                <h3 className="font-poppins font-black text-lg mb-4 text-white">onbording Milestones</h3>
                 <div className="space-y-4">
                   {[
                     { year: '2021', title: 'Platform Inception', detail: 'Launched with a local handwriting and vocabulary contest.' },

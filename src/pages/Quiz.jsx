@@ -142,10 +142,10 @@ export default function Quiz({ navigateTo, grade: propGrade, competition: propCo
   const handleNext = () => {
     if (currentIndex + 1 >= questions.length) {
       // Save to localStorage
-      const results = JSON.parse(localStorage.getItem('onboreding_results') || '[]');
+      const results = JSON.parse(localStorage.getItem('onbording_results') || '[]');
       const newResult = {
         id: Date.now(),
-        name: localStorage.getItem('onboreding_student_name') || 'Student',
+        name: localStorage.getItem('onbording_student_name') || 'Student',
         grade,
         comp: propComp || 'Quiz Competition',
         score: `${Math.round((score / questions.length) * 100)}%`,
@@ -155,7 +155,7 @@ export default function Quiz({ navigateTo, grade: propGrade, competition: propCo
         award: score / questions.length >= 0.9 ? 'National Champion' : score / questions.length >= 0.75 ? 'Excellence Gold' : score / questions.length >= 0.5 ? 'Excellence Badge' : 'Participation',
       };
       results.unshift(newResult);
-      localStorage.setItem('onboreding_results', JSON.stringify(results.slice(0, 50)));
+      localStorage.setItem('onbording_results', JSON.stringify(results.slice(0, 50)));
       setPhase('results');
       return;
     }

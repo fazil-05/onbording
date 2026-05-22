@@ -75,12 +75,12 @@ export default function Register({ selectedComp, setSelectedComp, navigateTo }) 
     e.preventDefault();
     if (validate()) {
       // Save student name for results page
-      localStorage.setItem('onboreding_student_name', formData.studentName);
+      localStorage.setItem('onbording_student_name', formData.studentName);
       // Save registration
-      const regs = JSON.parse(localStorage.getItem('onboreding_registrations') || '[]');
+      const regs = JSON.parse(localStorage.getItem('onbording_registrations') || '[]');
       const refNo = 'REG-' + Math.floor(100000 + Math.random() * 900000);
       regs.unshift({ ...formData, refNo, date: new Date().toISOString() });
-      localStorage.setItem('onboreding_registrations', JSON.stringify(regs.slice(0, 20)));
+      localStorage.setItem('onbording_registrations', JSON.stringify(regs.slice(0, 20)));
       setRegDetails({ ...formData, refNo });
       setSubmitted(true);
       setSelectedComp('');

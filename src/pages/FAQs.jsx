@@ -4,8 +4,8 @@ import { HelpCircle, ChevronDown, ChevronUp, Star, HelpCircle as HelpIcon } from
 export default function FAQs() {
   const faqData = [
     {
-      q: 'Who is eligible to participate in onboreding contests?',
-      a: 'onboreding online competitions are exclusively structured for school students starting from Kindergarten (KG) all the way up to the 10th Standard. Age brackets and evaluation grids are carefully customized according to grade divisions to ensure fair grading.'
+      q: 'Who is eligible to participate in onbording contests?',
+      a: 'onbording online competitions are exclusively structured for school students starting from Kindergarten (KG) all the way up to the 10th Standard. Age brackets and evaluation grids are carefully customized according to grade divisions to ensure fair grading.'
     },
     {
       q: 'How do students submit their competition entries?',
@@ -25,7 +25,7 @@ export default function FAQs() {
     },
     {
       q: 'Is there a support channel for registration errors?',
-      a: 'Yes, absolutely! We provide instant WhatsApp support (available by clicking the chat balloon on the bottom-right of the page), a toll-free hotline (+1 800-555-9876), and direct support desk mail (support@onboreding.com).'
+      a: 'Yes, absolutely! We provide instant WhatsApp support (available by clicking the chat balloon on the bottom-right of the page), a toll-free hotline (+1 800-555-9876), and direct support desk mail (support@onbording.com).'
     }
   ];
 
@@ -105,7 +105,7 @@ export default function FAQs() {
           </p>
           <div className="flex justify-center pt-2">
             <a
-              href="mailto:support@onboreding.com"
+              href="mailto:support@onbording.com"
               className="bg-white hover:bg-slate-100 text-indigo-900 font-extrabold py-3 px-6 rounded-2xl text-xs tracking-wider uppercase transition-all shadow-md active:scale-95"
             >
               Email Support Desk

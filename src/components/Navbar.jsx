@@ -34,7 +34,7 @@ export default function Navbar({ currentPage, navigateTo }) {
             </div>
             <div>
               <span className="font-poppins font-black text-2xl tracking-tight bg-gradient-to-r from-blue-900 via-indigo-800 to-blue-900 bg-clip-text text-transparent">
-                on<span className="text-amber-500">boreding</span>
+                on<span className="text-amber-500">bording</span>
               </span>
               <div className="text-[10px] font-bold text-indigo-600 tracking-widest uppercase -mt-1 block">
                 KG to 10th Grade
