@@ -77,7 +77,7 @@ In standard school exams, double-blind researchers note that clean, symmetrical 
   const [selectedPost, setSelectedPost] = useState(null);
 
   return (
-    <div className="bg-slate-50 py-16 text-left">
+    <div className="bg-slate-50 pt-28 pb-16 text-left">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

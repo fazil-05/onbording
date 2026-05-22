@@ -200,7 +200,7 @@ export default function HandwritingExam({ navigateTo, grade: propGrade, competit
   // ── INTRO SCREEN ──────────────────────────────────────────────────────────────
   if (phase === 'intro') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50 py-16 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-pink-50 pt-28 pb-16 px-4">
         <div className="max-w-2xl mx-auto space-y-8">
           <div className="text-center space-y-4">
             <div className="inline-flex items-center space-x-2 bg-violet-100 border border-violet-200 px-4 py-1.5 rounded-full text-violet-800 font-bold text-xs tracking-widest uppercase">
@@ -297,7 +297,7 @@ export default function HandwritingExam({ navigateTo, grade: propGrade, competit
   // ── CANVAS SCREEN ─────────────────────────────────────────────────────────────
   if (phase === 'canvas') {
     return (
-      <div className="min-h-screen bg-slate-900 flex flex-col">
+      <div className="min-h-screen bg-slate-900 flex flex-col pt-28">
         {/* Top toolbar */}
         <div className="bg-slate-800 border-b border-slate-700 px-4 py-3">
           <div className="max-w-5xl mx-auto flex flex-wrap items-center gap-3 justify-between">
@@ -445,7 +445,7 @@ export default function HandwritingExam({ navigateTo, grade: propGrade, competit
   // ── PHOTO PREVIEW ─────────────────────────────────────────────────────────────
   if (phase === 'photo-preview' && capturedImage) {
     return (
-      <div className="min-h-screen bg-slate-50 py-16 px-4">
+      <div className="min-h-screen bg-slate-50 pt-28 pb-16 px-4">
         <div className="max-w-2xl mx-auto space-y-6">
           <div className="text-center space-y-2">
             <h1 className="font-poppins font-black text-2xl text-blue-950">Review Your Photo</h1>
@@ -490,7 +490,7 @@ export default function HandwritingExam({ navigateTo, grade: propGrade, competit
   // ── SUCCESS / SUBMITTED ───────────────────────────────────────────────────────
   if (phase === 'submitted') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-indigo-50 flex items-center justify-center py-16 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-indigo-50 flex items-center justify-center pt-28 pb-16 px-4">
         <div className="max-w-md mx-auto text-center space-y-6">
           <div className="w-24 h-24 bg-gradient-to-br from-violet-500 to-purple-600 rounded-full flex items-center justify-center mx-auto shadow-2xl shadow-violet-500/30">
             <CheckCircle className="w-14 h-14 text-white" />

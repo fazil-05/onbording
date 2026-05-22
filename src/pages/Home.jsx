@@ -52,7 +52,7 @@ export default function Home({ navigateTo, setSelectedComp }) {
     <div className="relative overflow-hidden">
 
       {/* ── 1. HERO SECTION ──────────────────────────────────────────────────── */}
-      <section className="relative bg-gradient-to-br from-[#eef2ff] via-[#f5f0ff] to-[#fff7ed] overflow-hidden py-12 sm:py-16 xl:py-20 flex items-center">
+      <section className="relative bg-gradient-to-br from-[#eef2ff] via-[#f5f0ff] to-[#fff7ed] overflow-hidden pt-28 pb-12 sm:pt-36 sm:pb-16 xl:pt-40 xl:pb-20 flex items-center">
         {/* Soft blobs */}
         <div className="absolute top-[-80px] right-[-80px] w-[500px] h-[500px] bg-indigo-200 rounded-full blur-[100px] opacity-50 pointer-events-none" />
         <div className="absolute bottom-[-60px] left-[-60px] w-[400px] h-[400px] bg-amber-200 rounded-full blur-[80px] opacity-40 pointer-events-none" />

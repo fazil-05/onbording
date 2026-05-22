@@ -64,7 +64,7 @@ export default function Results({ navigateTo }) {
   })();
 
   return (
-    <div className="bg-slate-50 py-16 text-left min-h-screen">
+    <div className="bg-slate-50 pt-28 pb-16 text-left min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}

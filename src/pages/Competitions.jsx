@@ -196,7 +196,7 @@ export default function Competitions({ navigateTo, setSelectedComp }) {
     <div className="bg-slate-50 min-h-screen">
       {/* Registration alert toast */}
       {alert && (
-        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 flex items-center space-x-3 bg-amber-600 text-white font-semibold text-sm px-6 py-3.5 rounded-2xl shadow-2xl border border-amber-500 animate-bounce-slow">
+        <div className="fixed top-28 left-1/2 -translate-x-1/2 z-50 flex items-center space-x-3 bg-amber-600 text-white font-semibold text-sm px-6 py-3.5 rounded-2xl shadow-2xl border border-amber-500 animate-bounce-slow">
           <AlertCircle className="w-5 h-5 flex-shrink-0" />
           <span>{alert}</span>
           <button onClick={() => setAlert(null)} className="ml-2 hover:opacity-75">
@@ -205,7 +205,7 @@ export default function Competitions({ navigateTo, setSelectedComp }) {
         </div>
       )}
       {/* Header */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-950 via-indigo-950 to-purple-950 py-20 text-white">
+      <section className="relative overflow-hidden bg-gradient-to-br from-blue-950 via-indigo-950 to-purple-950 pt-28 pb-20 text-white">
         <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">

@@ -101,7 +101,7 @@ export default function Register({ selectedComp, setSelectedComp, navigateTo }) 
 
 
   return (
-    <div className="bg-slate-50 py-16 text-left">
+    <div className="bg-slate-50 pt-28 pb-16 text-left">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

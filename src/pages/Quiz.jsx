@@ -177,7 +177,7 @@ export default function Quiz({ navigateTo, grade: propGrade, competition: propCo
   // ── INTRO SCREEN ─────────────────────────────────────────────────────────────
   if (phase === 'intro') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-16">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 pt-28 pb-16">
         <div className="max-w-2xl mx-auto px-4 sm:px-6">
           <div className="text-center space-y-4 mb-12">
             <div className="inline-flex items-center space-x-2 bg-indigo-100 border border-indigo-200 px-4 py-1.5 rounded-full text-indigo-800 font-bold text-xs tracking-widest uppercase">
@@ -256,7 +256,7 @@ export default function Quiz({ navigateTo, grade: propGrade, competition: propCo
     const timerColor = timeLeft > 15 ? 'bg-emerald-500' : timeLeft > 7 ? 'bg-amber-500' : 'bg-red-500';
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-950 via-indigo-950 to-purple-950 py-8 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-950 via-indigo-950 to-purple-950 pt-28 pb-8 px-4">
         <div className="max-w-2xl mx-auto space-y-6">
 
           {/* Header bar */}
@@ -379,7 +379,7 @@ export default function Quiz({ navigateTo, grade: propGrade, competition: propCo
   if (phase === 'results') {
     const { label, color, bg } = getScoreLabel();
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-16 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 pt-28 pb-16 px-4">
         <div className="max-w-xl mx-auto space-y-6">
           {/* Score card */}
           <div className={`rounded-3xl border-2 p-8 text-center shadow-2xl ${bg} bg-white`}>

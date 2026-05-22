@@ -21,22 +21,22 @@ export default function Navbar({ currentPage, navigateTo }) {
   };
 
   return (
-    <nav className="sticky top-0 z-50 glass-nav transition-all duration-300 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent py-2.5 px-4 sm:px-6 lg:px-8 transition-all duration-300">
+      <div className="max-w-7xl mx-auto bg-white/90 backdrop-blur-md border border-slate-200/50 shadow-lg rounded-full px-6">
+        <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Logo Section */}
           <div 
             onClick={() => handleNavClick('home')}
             className="flex items-center space-x-2 cursor-pointer group"
           >
-            <div className="bg-gradient-to-tr from-blue-600 via-indigo-600 to-amber-400 p-2.5 rounded-2xl shadow-md transform group-hover:rotate-12 transition-transform duration-300">
-              <Award className="h-7 w-7 text-white" />
+            <div className="bg-gradient-to-tr from-blue-600 via-indigo-600 to-amber-400 p-2 rounded-xl shadow-md transform group-hover:rotate-12 transition-transform duration-300">
+              <Award className="h-5.5 w-5.5 sm:h-6 sm:w-6 text-white" />
             </div>
             <div>
-              <span className="font-poppins font-black text-2xl tracking-tight bg-gradient-to-r from-blue-900 via-indigo-800 to-blue-900 bg-clip-text text-transparent">
+              <span className="font-poppins font-black text-xl sm:text-2xl tracking-tight bg-gradient-to-r from-blue-900 via-indigo-800 to-blue-900 bg-clip-text text-transparent">
                 on<span className="text-amber-500">bording</span>
               </span>
-              <div className="text-[10px] font-bold text-indigo-600 tracking-widest uppercase -mt-1 block">
+              <div className="text-[9px] sm:text-[10px] font-bold text-indigo-600 tracking-widest uppercase -mt-1 block">
                 KG to 10th Grade
               </div>
             </div>
@@ -66,9 +66,9 @@ export default function Navbar({ currentPage, navigateTo }) {
           <div className="hidden xl:flex items-center">
             <button
               onClick={() => handleNavClick('register')}
-              className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-bold text-white rounded-2xl group bg-gradient-to-br from-orange-500 to-yellow-400 group-hover:from-orange-500 group-hover:to-yellow-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 mt-2 shadow-lg shadow-orange-500/20 active:scale-95 transition-transform duration-150"
+              className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-bold text-white rounded-2xl group bg-gradient-to-br from-orange-500 to-yellow-400 group-hover:from-orange-500 group-hover:to-yellow-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-orange-200 shadow-lg shadow-orange-500/20 active:scale-95 transition-transform duration-150"
             >
-              <span className="relative px-6 py-2.5 transition-all ease-in duration-75 bg-indigo-900 rounded-[14px] group-hover:bg-opacity-0 flex items-center space-x-2">
+              <span className="relative px-6 py-2 transition-all ease-in duration-75 bg-indigo-900 rounded-[14px] group-hover:bg-opacity-0 flex items-center space-x-2">
                 <Flame className="w-4 h-4 text-orange-400 group-hover:text-white animate-pulse" />
                 <span>Register Now</span>
               </span>
@@ -89,11 +89,11 @@ export default function Navbar({ currentPage, navigateTo }) {
 
       {/* Mobile Navigation Drawer */}
       <div 
-        className={`xl:hidden fixed inset-x-0 top-20 bg-white border-b border-slate-100 shadow-xl transition-all duration-300 ease-in-out origin-top ${
-          isOpen ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0 pointer-events-none'
+        className={`xl:hidden absolute left-4 right-4 top-full mt-2 bg-white border border-slate-200/80 shadow-2xl rounded-3xl overflow-hidden transition-all duration-300 ease-in-out origin-top ${
+          isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'
         }`}
       >
-        <div className="px-4 pt-2 pb-6 space-y-1.5 bg-slate-50/80 backdrop-blur-md">
+        <div className="px-4 pt-4 pb-6 space-y-1.5 bg-slate-50/90 backdrop-blur-md">
           {navItems.map((item) => {
             const isActive = currentPage === item.id;
             return (

@@ -33,7 +33,7 @@ export default function About() {
   return (
     <div className="bg-white">
       {/* 1. INTRO / HEADER */}
-      <section className="relative overflow-hidden bg-slate-50 py-20">
+      <section className="relative overflow-hidden bg-slate-50 pt-28 pb-20">
         <div className="absolute top-0 right-0 w-80 h-80 bg-blue-100/40 rounded-full blur-3xl"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 relative z-10">
           <span className="text-xs font-black tracking-widest text-indigo-600 uppercase font-poppins">Get to Know Us</span>
